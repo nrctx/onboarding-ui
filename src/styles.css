@@ -1,0 +1,129 @@
+* {
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #c0c0c0;
+}
+
+.container {
+    max-width: 600px;
+    margin: 30px auto;
+    background: #ffffff;
+    padding: 20px 30px;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.2);
+}
+
+h1, h2 {
+    margin-top: 0;
+    text-align: center;
+    color: #04366b;
+}
+
+fieldset {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 15px;
+    border: none;
+}
+
+.main-label {
+    font-weight: bold;
+}
+
+label {
+    margin: 5px 0 5px;
+    font-weight: 500;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="date"],
+textarea {
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+textarea {
+    resize: vertical;
+}
+
+button {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 12px 18px;
+    font-size: 16px;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-top: 15px;
+}
+
+button:hover {
+    background-color: #04366b;
+}
+
+.result {
+    margin-top: 20px;
+    padding: 10px;
+    font-style: italic;
+}
+
+/* Table Styles */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px 0;
+    font-size: 16px;
+    text-align: center;
+    border: 1px solid #ddd;
+}
+
+/* Header Styling */
+th {
+    background-color: #04366b;
+    color: white;
+    padding: 10px;
+    font-weight: bold;
+    border: 1px solid #ddd;
+}
+
+/* Cell Styling */
+td {
+    border: 1px solid #ddd;
+    padding: 10px;
+    vertical-align: top;
+    text-align: center;
+}
+
+/* Checkbox Label Styling */
+.checkbox-group {
+    display: inline-block;
+    text-align: left;
+}
+
+/* Checkbox Spacing */
+label {
+    display: block;
+    margin: 5px 0;
+}
+
+/* Hover Effect */
+tr:hover {
+    background-color: #f2f2f2;
+}
+
+/* Responsive Table */
+@media (max-width: 768px) {
+    table {
+        font-size: 14px;
+    }
+    th, td {
+        padding: 8px;
+    }
+}
